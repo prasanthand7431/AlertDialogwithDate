@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#e4e0e0"
+        app:title="Report"
+        app:titleTextColor="#3b80ff">
+
+    </android.support.v7.widget.Toolbar>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt1"
+        android:text="MATERIAL REPORT"
+        android:textColor="#ffffff"
+        android:background="#36a7e4"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="160dp"
+        android:onClick="but1"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt2"
+        android:text="VEHICLE REPORT"
+        android:textColor="#ffffff"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="#36a7e4"
+        android:onClick="but2"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt3"
+        android:text="EOD REPORT"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="#36a7e4"
+        android:onClick="but3"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/bt4"
+        android:text="EMERGENCY REPORT"
+        android:layout_marginTop="20dp"
+        android:textColor="#ffffff"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:background="#36a7e4"
+        android:onClick="but4"/>
+
+</LinearLayout>
